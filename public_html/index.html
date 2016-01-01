@@ -12,6 +12,7 @@
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
 
         <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
         <style>
             body {
                 padding-top: 50px;
@@ -75,16 +76,40 @@
 
             #landing-view{
                 background-image: url('img/landing.jpg');
+                background-position: center !important;
+                background-size: cover;
                 padding-top: 200px;
                 color: #ffffff;
             }
 
-            .navbar-inner, .navbar-inverse, .navbar-fixed-top{
+            /*.navbar-inner, .navbar-inverse, .navbar-fixed-top{
                 background-image: url('img/landing.jpg') !important;
-            }
+            }*/
 
             .navbar-static-top, .navbar-fixed-top, .navbar-fixed-bottom {
                 border-bottom-color: #00BAB8 !important;
+            }
+
+            /* Social Media Styling*/
+            .social-media {
+                list-style: none;
+                text-align: right;
+            }
+            
+            .media-icon-container{
+                text-align: left;
+                display: inline-block;
+                padding-top: 25px;
+            }
+            
+            .media-icon-container ul li{
+                float: left;
+                padding: 5px 0px;
+                margin: 0px 5px;
+            }
+            
+            .nav-social-btn{
+                
             }
         </style>
         <link rel="stylesheet" href="css/bootstrap-theme.min.css">
@@ -106,6 +131,18 @@
                         <span class="icon-bar"></span>
                     </button>
                     <a class="navbar-brand" href="#">george udosen</a>
+                    <div class="media-icon-container">
+                        <ul class="social-media">
+                            <li><a class="nav-social-btn twitter-icon" title="Twitter" href="https://twitter.com/udoyen" target="_blank"><i class="fa fa-twitter"></i></a></li>
+
+                            <li><a class="nav-social-btn facebook-icon" title="Facebook" href="https://facebook.com/udoyenface" target="_blank"><i class="fa fa-facebook-square"></i></a></li>
+
+
+                            <li><a class="nav-social-btn linkedin-icon" title="LinkedIn" href="http://www.linkedin.com/in/georgeudosen" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+
+                            <li><a class="nav-social-btn google-icon" title="Google+" href="https://plus.google.com/u/0/" target="_blank"><i class="fa fa-google-plus-square"></i></a></li>
+                        </ul>
+                    </div>
                 </div>
                 <div id="navbar" class="navbar-collapse collapse">
                     <ul class="nav navbar-nav navbar-right">
