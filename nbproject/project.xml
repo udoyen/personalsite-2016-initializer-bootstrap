@@ -5,5 +5,15 @@
         <data xmlns="http://www.netbeans.org/ns/clientside-project/1">
             <name>personalsite-2016-initializer-bootstrap</name>
         </data>
+        <spellchecker-wordlist xmlns="http://www.netbeans.org/ns/spellchecker-wordlist/1">
+            <word>browsehappy</word>
+            <word>browserupgrade</word>
+            <word>endif</word>
+            <word>george</word>
+            <word>href</word>
+            <word>http</word>
+            <word>jumbotron</word>
+            <word>udosen</word>
+        </spellchecker-wordlist>
     </configuration>
 </project>
