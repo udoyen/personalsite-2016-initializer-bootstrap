@@ -17,6 +17,75 @@
                 padding-top: 50px;
                 padding-bottom: 20px;
             }
+
+            .navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-brand:focus {
+                color: #00BAB8;
+                background-color: transparent;
+            }
+
+            .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+                color: #00BAB8;
+                background-color: transparent;
+            }
+
+            .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+                color: #00BAB8;
+                background-color: #080808;
+            }
+
+            .jumbotron {
+                padding: 48px 0;
+                height: 100vh;
+                text-align: center;
+            }
+
+            /*.navbar-static-top, .navbar-fixed-top, .navbar-fixed-bottom {
+                border-radius: 0;
+                height: 100px;
+                padding-top: 30px;
+            }*/
+
+            .navbar-inner {
+                min-height: 0px;
+            }
+
+
+            /* navbar style: increases the size of the page navbar*/
+            .navbar-brand,
+            .navbar-nav li a {
+                line-height: 50px;
+                height: 70px;
+                padding-top: 10px;
+            }
+
+            .navbar-toggle{
+                margin-top: 30px !important;
+            }
+
+            .navbar-inverse .navbar-brand {
+                color: #ffffff;
+                padding-top: 10px;
+            }
+
+            .navbar-inverse .navbar-nav > li > a {
+                color: #ffffff;
+            }
+
+            /* Styling for landing view*/
+
+            #landing-view{
+                background-image: url('img/landing.jpg');
+                padding-top: 200px;
+                color: #ffffff;
+            }
+
+            .navbar-inner, .navbar-inverse, .navbar-fixed-top{
+                background-image: url('img/landing.jpg') !important;
+            }
+
+            .navbar-static-top, .navbar-fixed-top, .navbar-fixed-bottom {
+                border-bottom-color: #00BAB8 !important;
+            }
         </style>
         <link rel="stylesheet" href="css/bootstrap-theme.min.css">
         <link rel="stylesheet" href="css/main.css">
@@ -36,24 +105,20 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="#">Project name</a>
+                    <a class="navbar-brand" href="#">george udosen</a>
                 </div>
                 <div id="navbar" class="navbar-collapse collapse">
-                    <form class="navbar-form navbar-right" role="form">
-                        <div class="form-group">
-                            <input type="text" placeholder="Email" class="form-control">
-                        </div>
-                        <div class="form-group">
-                            <input type="password" placeholder="Password" class="form-control">
-                        </div>
-                        <button type="submit" class="btn btn-success">Sign in</button>
-                    </form>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="active"><a href="#">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
                 </div><!--/.navbar-collapse -->
             </div>
         </nav>
 
         <!-- Main jumbotron for a primary marketing message or call to action -->
-        <div class="jumbotron">
+        <div class="jumbotron" id="landing-view">
             <div class="container">
                 <h1>Hello, world!</h1>
                 <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
