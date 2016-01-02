@@ -12,6 +12,11 @@
             body {
                 padding-top: 50px;
                 padding-bottom: 20px;
+                font-size: 1em;
+            }
+
+            *{
+                font-size: 1em;
             }
 
             .navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-brand:focus {
@@ -52,7 +57,13 @@
                 height: 80px;
                 padding-top: 10px;
             }
-            
+
+            .navbar-right{
+                font-size: 1.5em;
+            }         
+
+
+
             .navbar-brand{
                 line-height: 3em;
                 height: 80px;
@@ -92,11 +103,22 @@
                 text-align: right;
             }
 
-            .media-icon-container{
+            .social-media a{
+                color: #ffffff !important;
+                display: block;
+
+            }    
+
+            .social-media a:hover{
+                color: #00BAB8 !important;
+            }           
+
+            .media-icon-container {
                 text-align: left;
                 display: inline-block;
                 padding: 22px;
                 margin: 0px;
+                font-size: 1.5em;
             }
 
             .media-icon-container ul li{
@@ -105,22 +127,31 @@
                 margin: 0px 8px;
                 height: 100%;
             }
+          
 
-            .nav-social-btn{
+            /*.nav-social-btn:horizontal{
+                color: #00BAB8;
+            }*/
 
-            }
-            
             /* Presentaion section design */
             .presentation{
-                
+                text-align: center;
             }
-            
+
+            .presentation h1{
+
+            }
+
+            .presentation p{
+                font-size: 1.6em;
+            }
+
             .section-header-text{
-                
+
             }
-            
+
             .header-line{
-                
+
             }
         </style>
         <link rel="stylesheet" href="css/bootstrap-theme.min.css">
@@ -165,7 +196,7 @@
                     </div>
                 </div>
             </div><!--/.navbar-collapse -->
-            
+
         </nav>
 
         <!-- Main jumbotron for a primary marketing message or call to action -->
@@ -183,10 +214,7 @@
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris pulvinar mi sed vestibulum pulvinar. 
                     In a ultricies mauris. Proin tempor sit amet ex id venenatis. Suspendisse facilisis nibh justo, vel lacinia felis volutpat in. 
                     In congue et neque nec euismod. Integer luctus velit vel magna efficitur, quis convallis mi dapibus. 
-                    Mauris suscipit sollicitudin risus a suscipit. Phasellus imperdiet nec dolor sed luctus. 
-                    Curabitur lectus lacus, suscipit ac dui sed, iaculis posuere nulla. Mauris nec ipsum ultrices, volutpat justo at, imperdiet turpis. 
-                    Quisque ullamcorper commodo tellus non ornare. Phasellus sit amet tempus magna. Nulla nec nunc neque. Etiam volutpat, 
-                    augue a sagittis egestas, urna augue imperdiet est, ornare auctor nisl tortor mattis erat. </p>
+                    Mauris suscipit sollicitudin risus a suscipit. Phasellus imperdiet nec dolor sed luctus. </p>
             </div>
         </div>
 
@@ -239,6 +267,6 @@
             ga('create', 'UA-XXXXX-X', 'auto');
             ga('send', 'pageview');
         </script>
-    
 
-</body></html>
+
+    </body></html>
